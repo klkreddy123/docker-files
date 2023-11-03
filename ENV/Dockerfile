@@ -1,0 +1,4 @@
+FROM almalinux:8
+ENV NAME=KLKREDDY \
+    AGE=40 \
+    GENDER=MALE
