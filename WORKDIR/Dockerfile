@@ -1,3 +1,4 @@
 FROM almalinux:8
-RUN cd /tmp/
-RUN echo "Hello from workdir" > hello.txt
+# RUN cd /tmp/
+WORKDIR /tmp
+RUN echo "Hello from workdir" > newhello.txt
